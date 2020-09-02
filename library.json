@@ -1,0 +1,19 @@
+{
+    "name": "ArduinoEEPROM",
+    "version": "0.0.1",
+    "authors":
+    {
+      "name": "sascha lammers",
+      "email": "sascha_lammers@gmx.de",
+      "maintainer": true
+    },
+    "dependencies":
+    [
+        {
+            "name": "libcrc16",
+            "version": "https://github.com/sascha432/libcrc16.git"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": ["atmelavr"]
+}
